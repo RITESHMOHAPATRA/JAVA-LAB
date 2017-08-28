@@ -27,7 +27,6 @@ class RemoveDuplicate
         }
         s = new String(arr);
         s = s.substring(0,res_ind);
-
         System.out.println(s);
     }
 }
