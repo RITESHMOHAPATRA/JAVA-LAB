@@ -21,7 +21,7 @@ class FibonacciPrime
 	static void isprime(int n) 
 	{
 		int flag=0,i;
-		for(i=2;i<n/2;i++)
+		for(i=2;i<=n/2;i++)
 		{    
 		   if(n%i==0)
 		   {    
