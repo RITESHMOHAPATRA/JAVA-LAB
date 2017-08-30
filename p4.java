@@ -1,23 +1,14 @@
 import java.util.Scanner;
-class Largest
+class Vowel
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
-		int a,b,c;
-		System.out.println("Enter 3 nos");
-		a = sc.nextInt();
-		b = sc.nextInt();
-		c = sc.nextInt();
-		if(a>=b && a>=c)
-		{
-			System.out.println("a= "+a+" is largest");
-		}
+		System.out.print("Enter the character ");
+		char ch = sc.next().charAt(0);
+		if(ch == 'a' || ch =='e'|| ch =='e'|| ch =='i'|| ch =='o'|| ch =='u'|| ch =='A'|| ch =='E'|| ch =='I'|| ch =='O'|| ch =='U')
+			System.out.print("vowel");
 		else
-		if(b>=c)
-			System.out.println("b= "+b+" is largest");
-		else
-			System.out.println("c = "+c+" is largest");
-		
+			System.out.print("Not a vowel");
 	}
 }
