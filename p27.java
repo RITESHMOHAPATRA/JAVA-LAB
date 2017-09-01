@@ -48,7 +48,7 @@ class InvertibleMatrix {
     InvertibleMatrix dt = new Determinant();
     int det = dt.determinant(a,n);
 
-    if(det == 0)
+    if(det != 0)
       System.out.println("Invertible Matrix.");
     else
       System.out.println("Non invertible Matrix.");
