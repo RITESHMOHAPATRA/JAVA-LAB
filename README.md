@@ -160,6 +160,7 @@ Sample Output: The Magic Matrix of size 5×5 is:
 60. Write a Program in Java to input a 2-D array of size „m*n‟ and print its boundary (border)
 elements.
 For example:
+
 61. A simple encryption system uses a shifting process to hide a message. The value of the
 shift can be in the range 1 to 26. For example a shift of 7 means that A = U, B =V,C = W,
 etc.i e.Text : A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
@@ -189,6 +190,7 @@ CODED TEXT : “DKSMMW NAMMUK QMM”
 SHIFT : 29
 OUTPUT:
 INVALID SHIFT VAULE
+
 62. Write a Program in Java to input a number in Decimal number system and convert it into
 its equivalent number in the Binary number system.
 Note: Binary Number system is a number system which can represent a number in any other
