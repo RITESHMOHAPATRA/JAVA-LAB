@@ -196,12 +196,14 @@ number system in terms of 0 and 1 only. This number system consists of only two 
 i.e. 0 and 1.
 For Example: 25 in the Decimal number system can be represented as 11001 in the Binary
 number system.Figure Illustrating Decimal to Binary Number System Conversion
+
 63. Write a Program in Java to print all the Twin Prime numbers within a given range.
 Note: Twin Prime numbers are a pair of numbers which are both prime and their difference is
 2.
 Example:
 Twin Prime numbers in the range 1 to 100 are :
 (3,5) (5,7) (11,13) (17,19) (29,31) (41,43) (59,61) (71,73)
+
 64. Caesar Cipher is an encryption technique which is implemented as ROT13 („rotate by
 13 places‟). It is a simple letter substitution cipher that replaces a letter with the letter 13
 places after it in the alphabets, with the other characters remaining unchanged.
@@ -219,6 +221,7 @@ Rapelcgvba urycf gb frpher qngn.
 Example 3
 INPUT : You
 OUTPUT : INVALID LENGTH
+
 65. A Circular Prime is a prime number that remains prime under cyclic shifts of its digits.
 When the leftmost digit is removed and replaced at the end of the remaining string of digits,
 the generated number is still prime. The process is repeated until the original number is
