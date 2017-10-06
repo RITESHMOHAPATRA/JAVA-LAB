@@ -160,6 +160,7 @@ Sample Output: The Magic Matrix of size 5×5 is:
 60. Write a Program in Java to input a 2-D array of size „m*n‟ and print its boundary (border)
 elements.
 For example:
+
 61. A simple encryption system uses a shifting process to hide a message. The value of the
 shift can be in the range 1 to 26. For example a shift of 7 means that A = U, B =V,C = W,
 etc.i e.Text : A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
@@ -189,6 +190,7 @@ CODED TEXT : “DKSMMW NAMMUK QMM”
 SHIFT : 29
 OUTPUT:
 INVALID SHIFT VAULE
+
 62. Write a Program in Java to input a number in Decimal number system and convert it into
 its equivalent number in the Binary number system.
 Note: Binary Number system is a number system which can represent a number in any other
@@ -196,12 +198,14 @@ number system in terms of 0 and 1 only. This number system consists of only two 
 i.e. 0 and 1.
 For Example: 25 in the Decimal number system can be represented as 11001 in the Binary
 number system.Figure Illustrating Decimal to Binary Number System Conversion
+
 63. Write a Program in Java to print all the Twin Prime numbers within a given range.
 Note: Twin Prime numbers are a pair of numbers which are both prime and their difference is
 2.
 Example:
 Twin Prime numbers in the range 1 to 100 are :
 (3,5) (5,7) (11,13) (17,19) (29,31) (41,43) (59,61) (71,73)
+
 64. Caesar Cipher is an encryption technique which is implemented as ROT13 („rotate by
 13 places‟). It is a simple letter substitution cipher that replaces a letter with the letter 13
 places after it in the alphabets, with the other characters remaining unchanged.
@@ -219,6 +223,7 @@ Rapelcgvba urycf gb frpher qngn.
 Example 3
 INPUT : You
 OUTPUT : INVALID LENGTH
+
 65. A Circular Prime is a prime number that remains prime under cyclic shifts of its digits.
 When the leftmost digit is removed and replaced at the end of the remaining string of digits,
 the generated number is still prime. The process is repeated until the original number is
