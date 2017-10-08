@@ -28,4 +28,4 @@ class Anagrams
 		char c[] = str.toCharArray();
 		anagrams(c,0,c.length-1);
 	}
-}
+}// wrong code

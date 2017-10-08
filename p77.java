@@ -6,7 +6,7 @@ class HtmlTagRemover {
     	Scanner sc = new Scanner(System.in);
     	System.out.println(" enter text with html tags");
         String text = sc.nextLine();
-        text = text.replaceAll("\\<.*?\\>", "");
+        text = text.replaceAll("[<].*?[>]", "");
         System.out.println("text  without tags = "+text+"\n");
     }
 }
