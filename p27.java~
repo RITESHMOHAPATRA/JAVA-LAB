@@ -45,7 +45,7 @@ class InvertibleMatrix {
       }
     }
 
-    InvertibleMatrix dt = new InvertibleMatrix();
+    InvertibleMatrix dt = new Determinant();
     int det = dt.determinant(a,n);
 
     if(det != 0)
