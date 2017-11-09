@@ -1,31 +1,35 @@
-import java.util.Scanner;
-
-class Anagrams 
+import java.util.*;
+class Anagrams
 {
-	static void anagrams(char str[],int l,int r)
-	{
-	    if(l == r)
-	        System.out.println(str);
-	    else
-	    for(int i=l;i<=r;i++)
-	    {
-	            swap((str[l]),(str[i]));
-	            anagrams(str,l+1,r);
-	            swap((str[l]),(str[i]));
-	    }
-	}
-	private static void swap(char c, char d) 
-	{
-		char t = c;
-		c = d;
-		d = t;
-	}
-	public static void main(String[] args) 
-	{
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the string : ");
-		String str = sc.next();
-		char c[] = str.toCharArray();
-		anagrams(c,0,c.length-1);
-	}
-}// wrong code
+  public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the word");
+    String s=sc.next();
+    permute(s,0,s.length()-1);
+  }
+  static void permute(String a,int l,int r)
+  {
+    if(l==r)
+    {
+      System.out.println(a);
+    }
+    else
+    {
+      for(int i=l;i<=r;i++)
+      {
+        a=swap(a,l,i);
+        permute(a,l+1,r);
+        a=swap(a,l,i);
+      }
+    }
+  }
+  static String swap(String a,int i,int j)
+  {
+    char temp;
+    char[] charArray = a.toCharArray();
+    temp = charArray[i] ;
+    charArray[i] = charArray[j];
+    charArray[j] = temp;
+    return String.valueOf(charArray);
+  }
+}
