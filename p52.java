@@ -1,5 +1,6 @@
 import java.util.*;
-class p52{
+class p52
+{
   static int a = 0;
 	public static void anagram(String permutation,String input){
 		if(input.isEmpty()){
